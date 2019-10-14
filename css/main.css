@@ -1,0 +1,92 @@
+
+.vernav ul {
+	margin: 0;
+}
+
+.vernav ul li {
+	list-style-type: none;
+	margin: 0;
+}
+
+.vernav ul li, .vernav ul li a, .vernav ul li a span {
+	display: block;
+	float: left;
+}
+
+}
+
+#mainnav ul {
+	margin-bottom: 16px;
+	padding-bottom: 3px;
+	border-bottom: solid 1px #333333;
+	float: left;
+}
+
+#mainnav ul li {
+	margin-right: 8px;
+}
+
+#mainnav ul li a {
+
+}
+
+#mainnav ul li a span {
+	font-size: 15px;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 12px;
+}
+
+#mainnav ul li a.active {
+	background: url(../images/mainnav-l.gif) left top no-repeat;
+}
+
+#mainnav ul li a.active span {
+	background: url(../images/mainnav-r.gif) right top no-repeat;
+}
+
+#content {
+	clear: both;
+}
+
+#label {
+	text-indent: -5000px;
+	width: 369px;
+	height: 115px;
+	background: url(../images/label.gif) left top no-repeat;
+	margin-bottom: 20px;
+}
+
+#leftcol {
+	width: 409px;
+	float: left;
+}
+
+#rightcol {
+	width: 299px;
+	float: right;
+	margin-top: 296px;
+}
+
+.module-box h2 {
+	font-family: "Trebuchet MS";
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.module-box {
+	margin-bottom: 20px;
+}
+
+
+#footer {
+	font-size: 11px;
+	text-align: right;
+	padding-bottom: 10px;
+}
+
+#footer a {
+color: #898787
+}
